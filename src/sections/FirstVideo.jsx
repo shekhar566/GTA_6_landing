@@ -3,7 +3,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 
 const FirstVideo = () => {
-    const videoRef = useRef();
+    const videoRef = useRef(null);
 
     useGSAP(() => {
         gsap.set('.first-vd-wrapper', { marginTop: '-150vh', opacity: 0 });
