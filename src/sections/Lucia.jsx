@@ -36,7 +36,7 @@ const Lucia = () => {
         <div className="lg:w-1/2 lucia-life-content">
             {/* Right-side content column */}
       <div className="lg:w-1/2 lucia-life-content">
-        <div className="max-w-xl lg:ps-32 ps-10">
+        <div className="w-xl lg:ps-32 ps-10">
           <h1>Lucia Caminos</h1>
           <h2>Lucia’s father taught her to fight as soon as she could walk.</h2>
           <p>
@@ -46,12 +46,12 @@ const Lucia = () => {
           </p>
         </div>
 
-        <div className="lucia-2">
+        <div className="lucia-2 w-xl">
           <img src="/images/lucia-2.webp" />
         </div>
 
         {/* Additional paragraph for mobile + wide screens */}
-        <p className="max-w-xl lg:ps-32 ps-10">
+        <p className="w-xl lg:ps-32 ps-10">
           More than anything, Lucia wants the good life her mom has dreamed of
           since their days in Liberty City — but instead of half-baked
           fantasies, Lucia is prepared to take matters into her own hands.
